@@ -1,0 +1,9 @@
+# Use your extension’s slug as the name
+[[integrations]]
+   name = "ub8diyct-baseline-extension"
+
+[integrations.dev]
+  # Set the "path" as the path from your test site to your extension’s build folder.
+  path = "../netlify-baseline-extension"
+  # The following forces the extension to be used when building the test site.
+  force_run_in_build = true
